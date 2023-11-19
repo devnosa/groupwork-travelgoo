@@ -23,7 +23,7 @@
 
 .section-content {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     height: 100vh;
     gap: 40px;
@@ -34,6 +34,7 @@
     flex-shrink: 0;
     border-radius: 15px;
     background: #FFF;
+    
 
 
 }
@@ -43,6 +44,7 @@
     align-items:center;
     gap: 45px;
 }
+
 .destinations-card img {
     width: 223px;
     height: 223px;
@@ -51,8 +53,21 @@
     border-radius: 15px 0px 0px 15px;
     background: url(<path-to-image>), lightgray 50% / cover no-repeat, #B77D7D;
 }
+
+.destinations-card-description{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 .Vector{
-    width: 33px;
-    height: 33px;
-    flex-shrink: 0;
+    color: #000;
+    font-family: Open Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
 }

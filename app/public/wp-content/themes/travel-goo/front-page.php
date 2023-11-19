@@ -19,14 +19,14 @@ get_header();
 		<div class="destinations-card">
 			<div class="destinations-card-content">
 			<img src="<?php echo get_template_directory_uri() . '/assets/images/indonesia.png'?>" alt="INDONESIA" >	
-			<h4 class="destinations-card-title">Thailand</h4>
+			<h4 class="destinations-card-title">Indonesia</h4>
 			<p class="destinations-card-description">25+ Spots<br>3D & 3N</p>
 			<p class="vector"> ></p>
 			</div>
 		<div class="destinations-card">
 			<div class="destinations-card-content">
 			<img src="<?php echo get_template_directory_uri() . '/assets/images/new-zeland.png'?>" alt="NEW ZELAND" >	
-			<h4 class="destinations-card-title">Thailand</h4>
+			<h4 class="destinations-card-title">New-Zeland</h4>
 			<p class="destinations-card-description">20+ Spots<br>3D & 2N</p>
 			<p class="vector"> ></p>
 			</div>	
