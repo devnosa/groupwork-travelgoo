@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  .container {
+    max-width: 1340px;
+    margin: 0,auto;
+    padding: 0, 10px;
+
+}
+.section-content{
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    border-bottom: 50px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.card-content{
+    display: flex;
+}

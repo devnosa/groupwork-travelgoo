@@ -15,7 +15,13 @@
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="main-style.css">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Open+Sans:ital,wght@0,600;0,700;1,700&family=Poppins&family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet"> 
 
 	<?php wp_head(); ?>
 </head>
