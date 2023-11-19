@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+  }
+  html{
+      scroll-behavior: smooth;
+  }
+  .home-section-4 {
+    border-bottom: 50px;
+    overflow: hidden;
+}
+.secondary-title{
+    color: #000;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 63px 0 63px;
+}
+
+.section-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100vh;
+    gap: 40px;
+}
+.destinations-card{
+    width: 659px;
+    height: 223px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #FFF;
+    
+
+
+}
+.destinations-card-content{
+    display: flex;
+    justify-content: baseline;
+    align-items:center;
+    gap: 45px;
+}
+
+.destinations-card img {
+    width: 223px;
+    height: 223px;
+    flex-shrink: 0;
+    padding: 21px 0 21px 0;
+    border-radius: 15px 0px 0px 15px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat, #B77D7D;
+}
+
+.destinations-card-description{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Vector{
+    color: #000;
+    font-family: Open Sans;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}

@@ -1,38 +1,43 @@
 <?php
-/**
- * The template for displaying all pages
- *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site may use a
- * different template.
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package Travel-Goo
- */
 
 get_header();
 ?>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<main id="primary" class="home-page">
+	<section class="home-section-4">
+    <div class="container">
+	<h2 class="secondary-title">Our Popular Destinations</h2>
+		<div class="section-content">
+		<img src="<?php echo get_template_directory_uri() . '/assets/images/world-map.png'?>" alt="WORLD MAP" >
+		<div class="destinations-card">
+			<div class="destinations-card-content">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/thailand.png'?>" alt="THILAND" >	
+			<h4 class="destinations-card-title">Thailand</h4>
+			<p class="destinations-card-description">20+ Spots <br>2D & 3N</p>
+			<p class="vector"> ></p>	
+			</div>
+		<div class="destinations-card">
+			<div class="destinations-card-content">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/indonesia.png'?>" alt="INDONESIA" >	
+			<h4 class="destinations-card-title">Indonesia</h4>
+			<p class="destinations-card-description">25+ Spots<br>3D & 3N</p>
+			<p class="vector"> ></p>
+			</div>
+		<div class="destinations-card">
+			<div class="destinations-card-content">
+			<img src="<?php echo get_template_directory_uri() . '/assets/images/new-zeland.png'?>" alt="NEW ZELAND" >	
+			<h4 class="destinations-card-title">New-Zeland</h4>
+			<p class="destinations-card-description">20+ Spots<br>3D & 2N</p>
+			<p class="vector"> ></p>
+			</div>	
+		</div>
 
-	<main id="primary" class="site-main">
-
-		<?php
-		while ( have_posts() ) :
-			the_post();
-
-			get_template_part( 'template-parts/content', 'page' );
-
-			// If comments are open or we have at least one comment, load up the comment template.
-			if ( comments_open() || get_comments_number() ) :
-				comments_template();
-			endif;
-
-		endwhile; // End of the loop.
-		?>
-
+		
+        </div>
+		</div>
+</section>
 	</main><!-- #main -->
 
 <?php
-get_sidebar();
+
 get_footer();
